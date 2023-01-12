@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+/*
+ * Title: Arithmetic
+ * Author: Charlie Crutcher
+ * Date: December 2022
+ * Purpose: Arithmetic methods - Method only class
+ */
+
+namespace CrutcherCalculator
+{
+    public class Arithmetic
+    {
+        /* Calculation rules for subtraction and division:
+         * - first - second
+         * - first / second */
+      
+        //Addition method - Returns addition of first and second double
+        public static double Addition(double first, double second) 
+        { 
+            return first + second;
+        }
+
+        //Subtraction method - Returns subtraction of first and second double
+        public static double Subtraction(double first, double second) 
+        {
+            return first - second;
+        }
+
+        //Multiplication method - Returns multiplication of first and second double
+        public static double Multiplication(double first, double second) 
+        { 
+            return first * second;
+        }
+
+        //Division method - Returns division of first and second double
+        public static double Division(double first, double second) 
+        {
+            return first / second;
+        }
+
+    }
+}
