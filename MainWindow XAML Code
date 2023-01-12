@@ -12,4 +12,3 @@ Main Window XAML Code
                   Source="PageCalculate.xaml" 
                   WindowStartupLocation="CenterScreen">
 </NavigationWindow>
-
