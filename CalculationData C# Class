@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+/*
+ * Title: CalculationData
+ * Author: Charlie Crutcher
+ * Date: December 2022
+ * Purpose: Hold data for calculations
+ */
+
+namespace CrutcherCalculator
+{
+    public class CalculationData
+    {
+
+		// Data for first number
+		private double firstNumber;
+		public double FirstNumber
+		{
+			get { return firstNumber; }
+			set { firstNumber = value; }
+		}
+
+		// Data for second number
+		private double secondNumber;
+		public double SecondNumber
+		{
+			get { return secondNumber; }
+			set { secondNumber = value; }
+		}
+
+
+	}
+}
